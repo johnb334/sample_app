@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><Ruby on Rails Tutorial Sample App ><%= @title%></title>	
+		<%= csrf_meta_tag %>
+		<%=render '/stylesheets'%>
+		
+		
+		
+	</head>
+	<body%>
+	<div class="container">
+				<%=render '/header'%>	
+				<section class="round">
+					<%=yield%>
+				</section>
+				<%=render '/footer'%>
+				
+		
+		</div>
+	</body>	
+</html>

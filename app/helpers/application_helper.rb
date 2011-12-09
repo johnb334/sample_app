@@ -8,6 +8,8 @@ module ApplicationHelper
       base_title                                    #Implicit return
     else
       "#{@base_title} | #{@title}"                  #String interpolation
+      
+
       end
     end
 end
